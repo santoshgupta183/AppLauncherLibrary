@@ -45,7 +45,7 @@ afterEvaluate {
                 artifactId = 'app-launcher-sdk'
                 version = '1.0.0'
 
-                artifact("$buildDir/outputs/aar/${artifactId}-release.aar")
+                from components.release
             }
         }
     }
